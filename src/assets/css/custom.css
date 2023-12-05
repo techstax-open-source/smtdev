@@ -1,0 +1,152 @@
+.red-shadow {
+  box-shadow: 0 -0.25rem 1rem #f34343 ,0 0.5rem 1rem #f34343!important;
+}
+.red-shadow:hover {
+  box-shadow: 0 -0.25rem 1rem #f34343 ,0 0.5rem 1rem 0.5rem #f34343!important;
+}
+.custom-shadow {
+  box-shadow: 0 -0.25rem 1rem #fa9200 ,0 0.5rem 1rem #fa9200!important;
+}
+.custom-shadow:hover {
+  box-shadow: 0 -0.25rem 1rem #fa9200 ,0 0.5rem 1rem 0.5rem #fa9200!important;
+}
+.green-shadow {
+  box-shadow: 0 -0.25rem 1rem #38CAB3 ,0 0.5rem 1rem #38CAB3!important;
+}
+.green-shadow:hover {
+  box-shadow: 0 -0.25rem 1rem #38CAB3 ,0 0.5rem 1rem 0.5rem #38CAB3!important;
+}
+.custom-radius{
+  border-radius: 10px
+}
+
+.overlay-collapse {
+  position: absolute;
+  z-index: 1;
+}
+
+.scrollable-row {
+  overflow-x: auto;
+}
+
+.ht-60 {
+  height: 60px;
+}
+
+.flex-scroll-x--rows-2 {
+  display: flex;
+  overflow-x: auto;
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px; 
+  width: 300px; 
+  background-color: #333;
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+  padding: 20px;
+  overflow-y: auto;
+  height: auto;
+   
+}
+.dark-theme .sidebar{
+  background-color: #383d52;
+}
+.sidebar.open {
+  right: 0;
+}
+
+.sidebar.closed {
+  right: -300px; 
+}
+
+
+.full-screen-sidebar {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  padding: 20px;
+  z-index: 1001;
+  overflow-y: auto;
+  
+}
+.toggle-button {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1001;
+  transition: right 0.3s ease-in-out;
+}
+
+.button-open {
+  right: 300px; 
+}
+
+.button-closed {
+  right: 0;
+}
+
+.content {
+  margin-right: 0;
+  transition: margin-right 0.3s ease-in-out;
+}
+
+.panel-heading1 button {
+  padding: 12px;
+  color: #000000;
+}
+.letter-button {
+  display: flex; 
+  flex-direction: column; 
+}
+
+.h-5vh {
+  height: 25vh !important;
+}
+.h-1vh {
+  height: 15vh !important;
+}
+
+
+.image-container {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.full-screen-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.wd-130 {
+  width: 130px;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.custom-modal{
+  height: 100%;
+  width: 100%;
+  resize: both;
+  overflow: auto;
+}

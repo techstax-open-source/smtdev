@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Stencil Printer",
+        "image_url": "/SMT_LINE/printer.png",
+        "status":1
+        
+    },
+    {
+        "id": 2,
+        "name": "Paste Inspection",
+        "image_url": "/SMT_LINE/paste_machine.webp",
+        "status":1
+       
+    },
+    {
+        "id": 4,
+        "name": "Mount Machine",
+        "image_url": "/SMT_LINE/mount_machine.png",
+        "status":1
+    },
+    {
+        "id": 7,
+        "name": "Heating Oven",
+        "image_url": "/SMT_LINE/heating_oven.png",
+        "status":0
+    },
+    {
+        "id": 6,
+        "name": "Inspection Machine",
+        "image_url": "/SMT_LINE/inspection.png",
+        "status":-1
+        
+    },
+    {
+        "id": 8,
+        "name": "X-ray Inspection",
+        "image_url": "/SMT_LINE/xray.webp",
+        "status":1
+        
+    },
+    {
+        "id": 9,
+        "name": "Final Tester",
+        "image_url": "/SMT_LINE/tester.png",
+        "status":1
+        
+    }
+    
+]
